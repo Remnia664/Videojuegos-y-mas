@@ -45,3 +45,32 @@ footer{
     padding: 25px;
     color: #ffffff;
 }
+</style>
+.botones-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-red {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.instagram {
+    background: #E1306C;
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.btn-red:hover {
+    transform: scale(1.1);
+    background: #000;
+}
